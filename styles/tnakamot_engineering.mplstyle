@@ -1,0 +1,102 @@
+lines.linewidth      : 1.5
+lines.linestyle      : -
+lines.marker         : None
+lines.markeredgewidth: 0.5
+lines.markersize     : 5
+lines.dash_joinstyle : round
+lines.dash_capstyle  : round
+lines.solid_joinstyle: round
+lines.solid_capstyle : round
+lines.antialiased    : True
+
+lines.dashed_pattern : 5.0, 3.0
+lines.dashdot_pattern: 4.0, 1.5, 0.5, 1.5
+lines.dotted_pattern : 2.0, 2.0
+lines.scale_dashes   : True
+
+font.family          : serif
+font.serif           : Times New Roman, Times, DejaVu Serif, Bitstream Vera Serif, Computer Modern Roman, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Palatino, Charter, serif
+font.size            : 12.0
+
+text.color           : black
+
+axes.facecolor       : white
+axes.edgecolor       : black
+axes.linewidth       : 1.0
+axes.grid            : True
+axes.grid.axis       : both
+axes.grid.which      : major
+axes.titlesize       : large
+axes.titlepad        : 6.0
+axes.labelsize       : medium
+axes.labelpad        : 2.0
+axes.labelcolor      : black
+axes.axisbelow       : line
+
+grid.linestyle       : --
+grid.color           : black
+grid.alpha           : 1.0
+grid.linewidth       : 0.5
+
+xtick.direction      : in
+xtick.major.size     : 1.5
+xtick.major.width    : 0.5
+xtick.minor.size     : 1.5
+xtick.minor.width    : 0.5
+xtick.minor.visible  : False
+xtick.top            : True
+
+ytick.direction      : in
+ytick.major.size     : 1.5
+ytick.major.width    : 0.5
+ytick.minor.size     : 1.5
+ytick.minor.width    : 0.5
+ytick.minor.visible  : False
+ytick.right          : True
+
+legend.frameon        : True
+legend.framealpha     : 1.0
+legend.facecolor      : white
+legend.edgecolor      : black
+legend.fancybox       : False
+legend.shadow         : False
+legend.numpoints      : 1
+legend.scatterpoints  : 1
+legend.markerscale    : 1.0
+legend.fontsize       : medium
+
+legend.borderpad :     0.4
+legend.labelspacing :  0.2
+legend.handlelength :  2.8
+legend.handleheight :  0.7
+legend.handletextpad : 0.4
+legend.borderaxespad : 0.5
+legend.columnspacing : 2.0
+
+figure.autolayout    : True
+figure.titlesize     : large
+figure.titleweight   : normal
+figure.figsize       : 6.4, 4.8
+figure.dpi           : 81.59 # DPI of 27 inch monitor with 1920 x 1080 resolution.
+figure.facecolor     : white
+figure.edgecolor     : white
+figure.frameon       : False
+
+savefig.dpi          : 81.59 # DPI of 27 inch monitor with 1920 x 1080 resolution.
+savefig.facecolor    : white
+savefig.edgecolor    : white
+savefig.format       : pdf
+savefig.pad_inches   : 0.0
+savefig.transparent  : False
+savefig.orientation  : portrait
+
+mathtext.fontset     : stix
+
+# Color Universal Design
+#  http ://jfly.iam.u-tokyo.ac.jp/color/index.html
+#axes.prop_cycle      : cycler('color', ['FF4B00', '005AFF', '03AF7A', '990099', '4DC4FF', '804000', 'F6AA00'])
+
+# https ://ironodata.info/
+axes.prop_cycle       : (cycler('color', ['E60012', '0068B7', '009944', 'F39800', '00A0E9', '920783', '8FC31F', '1D2088']) + cycler('linestyle', ['-', '--', ':', '-.', '-', '--', ':', '-.']))
+
+
